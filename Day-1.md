@@ -20,7 +20,31 @@ Facts about haskell
 ```
 (if 5 > 100 then 5 else 5*2) + 1
 ```
-* functions can't begin with uppercase letter
+* Functions can't begin with uppercase letter
+* List in haskell are a homogenous data structure. You can't have different types of elements in a single list.
+* You can add list by using `++` operator.
+
+```
+[1,2,3,4] ++ [5,6,7,8]
+```
+
+* You can add items to start of list by using `:`
+
+```
+5:[1,2,3,4]
+```
+
+* You can pull out elements from list by using `!!`
+
+```
+"Manoj" !! 3
+```
+
+* List can compared in Haskell. The order of comparison starts from head.
+
+```
+[1,2,3] == [1,2,3]
+```
 
 Installing haskell on mac
 ===
@@ -38,3 +62,5 @@ Running your code in ghci
 ===
 
 Go to the folder you saved your `.hs` file and type `stack ghci` then in the prompt type `:l filename`. That's it. No your file is loaded in the prompt. You can call your defined functions now. 
+
+You can also use `let` keyword to define name directly in ghci prompt.
