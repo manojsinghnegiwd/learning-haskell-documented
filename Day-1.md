@@ -11,8 +11,9 @@ Facts about haskell
 * Haskell is statically typed
 * Haskell uses a very good type inference. That means We don't have to label every variable with a type haskell can figure that out that itself.
 * You can call a function in Haskell by typing function name, a space and then writing arguments separated by spaces.
-* we can wrap arguments in parentheses to give them highest precedence.
+* We can wrap arguments in parentheses to give them highest precedence.
 * You can call a prefix function with a infix notation by surrounding the function name with backtick.
+* Functions in haskell don't need to be in a particular order.
 
 Installing haskell on mac
 ===
