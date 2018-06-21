@@ -17,3 +17,8 @@ Installing hashkell on mac
 * Run this commange `brew install haskell-stack`
 * And then this `stack setup`
 * if you don't get any error you are good to go type `stack ghci` to run the intractive prompt.
+
+What is an infix function
+===
+
+An infix function is get called be sandwiching the function between arguments. 
