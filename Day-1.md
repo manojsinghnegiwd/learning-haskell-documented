@@ -25,3 +25,8 @@ What is an infix function
 ===
 
 An infix function is get called be sandwiching the function between arguments. 
+
+Running your code in ghci
+===
+
+Go to the folder you saved your `.hs` file and type `stack ghci` then in the prompt type `:l filename`. That's it. No your file is loaded in the prompt. You can call your defined functions now. 
