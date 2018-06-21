@@ -14,6 +14,13 @@ Facts about haskell
 * We can wrap arguments in parentheses to give them highest precedence.
 * You can call a prefix function with a infix notation by surrounding the function name with backtick.
 * Functions in haskell don't need to be in a particular order.
+* The else part in the if statement of haskell is mandatory.
+* A if statement in haskell is just another expression. You can wrap the if statement in parentheses and then add 1 to the returned value something like this piece of code
+
+```
+(if 5 > 100 then 5 else 5*2) + 1
+```
+* functions can't begin with uppercase letter
 
 Installing haskell on mac
 ===
