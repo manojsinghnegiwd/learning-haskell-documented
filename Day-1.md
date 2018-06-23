@@ -1,7 +1,7 @@
 Facts about functional programming languages
 ===
 
-* In functional programming languages we don't tell the what to do but we actually tell the program what stuff is.
+* In functional programming languages we don't tell the program what to do but we actually tell the program what stuff is.
 * In a purely functional language a function cannot have side effects
 * because of no side effects referential transparency increases.
 
@@ -20,12 +20,12 @@ Facts about haskell
 ```
 (if 5 > 100 then 5 else 5*2) + 1
 ```
-* Functions can't begin with uppercase letter
-* List in haskell are a homogenous data structure. You can't have different types of elements in a single list.
+* Functions can't begin with an uppercase letter
+* List in haskell are a homogenous data structure. You can't have different type of elements in a single list.
 * You can add list by using `++` operator.
 
 ```
-[1,2,3,4] ++ [5,6,7,8]
+[1,2,3,4] ++ [5,6,7,8] Outputs [1,2,3,4,5,6,7,8]
 ```
 
 * You can add items to start of list by using `:`
