@@ -3,20 +3,21 @@ Some basic haskell list functions that works on list
 
 * `head` takes a list and returns its head ( first element )
 ```
-head [5,4,3,2,1]
+head [5,4,3,2,1] -- this returns 5
 ```
 * `tail` takes a list and returns all the element of the list except head
 ```
-tail [5,4,3,2,1]
+tail [5,4,3,2,1] -- this returns [4,3,2,1] 
 ```
 * `last` takes a list and returns its last element
 ```
-last [5,4,3,2,1]
+last [5,4,3,2,1] -- this returns 1
 ```
 * `init` takes a list and returns all of the element except the last element
 ```
-init [5,4,3,2,1]
+init [5,4,3,2,1] -- this returns [5,4,3,2]
 ```
+*Note:* Calling `head`,`tail`,`last`,`init` on an empty list will throw an exception.
 * `length` takes a list and returns its length
 ```
 length [5,4,3,2,1]
